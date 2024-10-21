@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body{
+    background-color: burlywood;
+}
+.header{
+    height: 200px;
+    width: 100vw;
+    background-color: cadetblue;
+    display: flex;
+}
+.one{
+    flex: 2;
+    display: flex;
+    justify-content:center;
+}
+.two{
+    flex: 1;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: bisque;
+    line-height: 30px;
+}
+li{
+    list-style-type: none;
+}
+.two a{
+    text-decoration: none;
+    color: bisque;
+}
+.one p{
+    font-size: 30px;
+    color: bisque;
+    margin-top: 90px;
+}
+.one img{
+    border-radius: 56%;
+    height: 155px;
+    /* width: 150px; */
+    margin: 30px 100px;
+}
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c{
+    background: blanchedalmond;
+    border: 2px solid lavender;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    height: 200px;
+    width: 40vw;
+    line-height: 20px;
+}
+.c h3{
+    margin-bottom: 20px;
+}
+#ninety{
+    margin-left: 220px;
+}
+#eighty{
+    margin-left: 190px;
+}
+.acheivements{
+    margin-top: 100px;
+    text-align: center;
+}
+.acheivements h3{
+    font-size: 50px;
+}
+.prize{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prize img{
+    height: 300px;
+    margin: 50px 60px;
+}
